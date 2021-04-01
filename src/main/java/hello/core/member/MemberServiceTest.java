@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 /* Junit을 이용한 테스트 방식 */
 class MemberServiceTest {
 
-    MemberService memberService = new MemberServiceImpl();
+    MemberService memberService;
 
     @Test
     void join() {
