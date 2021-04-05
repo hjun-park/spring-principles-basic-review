@@ -7,9 +7,4 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 
 public class StatefulServiceTest {
 
-    @Test
-    void statefulServiceSingleton() {
-        ApplicationContext ac = new AnnotationConfigApplicationContext(TestConfig.class);
-
-    }
 }
